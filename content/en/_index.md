@@ -17,6 +17,10 @@ cascade:
     path: "/**"
 ---
 
+{{% alert title="Note" color="warning" %}}
+You are viewing the documentation for an older version of Sailor Hat for Raspberry Pi. If you are looking for the latest version, please visit [docs.hatlabs.fi/sh-rpi](https://docs.hatlabs.fi/sh-rpi/).
+{{% /alert %}}
+
 Sailor Hat for Raspberry Pi (SH-RPi for short) is a power management and NMEA 2000 interface board for the Raspberry Pi.
 When connected to a Raspberry Pi single board computer (not included!), it allows you to build boat servers running [Signal K](https://signalk.org), [OpenPlotter](https://openmarine.net/openplotter), or your own custom IoT software and power them directly from the boat's 12V or 24V network and interface safely with the boat's NMEA 2000 data network.
 
