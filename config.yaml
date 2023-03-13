@@ -1,5 +1,5 @@
 baseURL: /
-title: Sailor Hat for Raspberry Pi
+title: Sailor Hat for Raspberry Pi (Version 1)
 contentDir: content/en
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -29,8 +29,8 @@ params:
   version_menu: Releases
   archived_version: false
   version: '1.0'
-  url_latest_version: 'https://docs.hatlabs.fi/sh-rpi/'
-  github_repo: 'https://github.com/hatlabs/sh-rpi'
+  url_latest_version: 'https://docs.hatlabs.fi/sh-rpi-v1/'
+  github_repo: 'https://github.com/hatlabs/sh-rpi-v1'
   github_project_repo: 'https://github.com/hatlabs/SH-RPi-hardware'
   github_branch: main
   gcs_engine_id: a31868f3e68674aa2
@@ -67,8 +67,8 @@ services:
     id: G-F3KDPEBJEF
 languages:
   en:
-    title: Sailor Hat for Raspberry Pi
-    description: A smart power management hat for Raspberry Pi
+    title: Sailor Hat for Raspberry Pi (Version 1)
+    description: A smart power management and NMEA 2000 interface hat for Raspberry Pi
     languageName: English
     weight: 1
     time_format_default: 2006-01-02
