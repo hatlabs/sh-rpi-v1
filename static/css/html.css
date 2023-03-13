@@ -1,0 +1,6 @@
+html {
+    -moz-filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(80%);
+}
