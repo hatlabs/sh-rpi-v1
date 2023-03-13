@@ -1,5 +1,5 @@
 baseURL: /
-title: Sailor Hat for Raspberry Pi (Version 1)
+title: SH-RPi (Version 1)
 contentDir: content/en
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -24,9 +24,14 @@ params:
     pygmentsUseClasses: false
     pygmentsUseClassic: false
     pygmentsStyle: tango
+  versions:
+    - version: v2
+      url: 'https://docs.hatlabs.fi/sh-rpi/'
+    - version: v1
+      url: 'https://docs.hatlabs.fi/sh-rpi-v1/'
   copyright: Hat Labs Oy
   privacy_policy: ''
-  version_menu: Releases
+  version_menu: Versions
   archived_version: false
   version: '1.0'
   url_latest_version: 'https://docs.hatlabs.fi/sh-rpi-v1/'
@@ -67,7 +72,7 @@ services:
     id: G-F3KDPEBJEF
 languages:
   en:
-    title: Sailor Hat for Raspberry Pi (Version 1)
+    title: SH-RPi (Version 1)
     description: A smart power management and NMEA 2000 interface hat for Raspberry Pi
     languageName: English
     weight: 1
